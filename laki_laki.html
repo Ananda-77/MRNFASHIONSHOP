@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ MRN Fashion House ✨</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="csslaki.css">
+</head>
+<body>
+    <nav class="navbar">
+    <div style="text-align: left;">
+    <img src="foto/logo1.png" alt="Logo MRN Fashion House" width="80" height="60" style="vertical-align: middle; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);"> 
+    <h4 style="display: inline; margin-left: 10px; color: #ff6b8a;">MRN Fashion House</h4>
+    </div>
+        <div class="nav-links">
+            <a href="HOME.html">Beranda</a>
+            <a href="#gender">Gender</a>
+            <a href="#categories">Kategori</a>
+            <a href="#products">New Produk</a>
+            <a href="#Tentang kami">Tentang</a>
+            <a href="#Tentang kami">Kontak</a>
+        </div>
+    </nav>
+    <section class="gender-section" id="gender">
+        <div class="hero-content">
+            <h1>✨ Temukan Gaya Unikmu ✨</h1>
+            <p>Koleksi fashion terlengkap untuk gaya yang elegan</p>
+            <form id="searchForm" class="search-bar">
+                <input type="text" id="searchInput" placeholder="Cari produk..." required>
+                <button type="submit" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        <div>
+        <h2 id="gender" style="color: #fff;">Pilih Kategori Gender</h2>
+        <div class="gender-container">
+            <div class="gender-card female">
+                <div class="gender-overlay">
+                    <i class="fas fa-venus"></i>
+                    <h3 style="color: #fff;">Perempuan</h3>
+                    <p>Koleksi Fashion Eksklusif untuk Perempuan</p>
+                    <button class="btn" ><a href="HOME.html" style="color: #fff;">Lihat Koleksi</a></button>
+                </div>
+            </div>
+            <div class="gender-card male">
+                <div class="gender-overlay">
+                    <i class="fas fa-mars"></i>
+                    <h3 style="color: #fff;">Laki-laki</h3>
+                    <p>Koleksi Fashion Eksklusif untuk Laki-laki</p>
+                    <button class="btn"><a href="laki_laki.html" style="color: #fff;">Lihat Koleksi</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="categories" id="categories">
+        <h2 id="abc">Kategori Populer</h2>
+        <div class="category-grid">
+            
+            <div class="category-card">
+                <a href="baju.html" style="color: black;">
+                <i class="fas fa-tshirt" style="font-size: 2em; color: #ff6b8a;"></i>
+                <h3>Baju</h3>
+                </a>
+            </div>
+            <div class="category-card">
+                <a href="aksesoriscwo.html" style="color: black;">
+                <i class="fas fa-socks" style="font-size: 2em; color: #ff6b8a;"></i>
+                <h3>Aksesoris</h3>
+                </a>
+            </div>
+            <div class="category-card">
+                <a href="jas.html" style="color: black;">
+                <i class="fas fa-hat-cowboy" style="font-size: 2em; color: #ff6b8a;"></i>
+                <h3>Jas</h3>
+                </a>
+            </div>
+            <div class="category-card">
+                <a href="sepatucwo.html" style="color: black;">
+                <i class="fas fa-shoe-prints" style="font-size: 2em; color: #ff6b8a;"></i>
+                <h3>Sepatu</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2 style="text-align: center; margin-bottom: 30px;">Produk Terbaru</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <span class="badge">Baru</span>
+                <div class="product-image">
+                    <img src="produk_terbaru cowo1.jpg" alt="Fashion Pria">
+                </div>
+                <div class="product-info">
+                    <h3>Elegant Suit Collection</h3>
+                    <p>Setelan formal dengan potongan modern dan elegan</p>
+                    <div class="price">Rp 359.000</div>
+                    <a href="cekout.html"><button class="btn add-to-cart" data-price="359000" data-name="Elegant Suit Collection">Tambah ke Keranjang</button></a>
+                </div>
+            </div>
+            <div class="product-card">
+                <span class="badge">Baru</span>
+                <div class="product-image">
+                    <img src="produk_terbaru cowo2.jpg" alt="Fashion Pria">
+                </div>
+                <div class="product-info">
+                    <h3>Modern Casual Set</h3>
+                    <p>Pakaian kasual dengan desain kontemporer</p>
+                    <div class="price">Rp 359.000</div>
+                    <a href="cekout.html"><button class="btn add-to-cart" data-price="359000" data-name="Modern Casual Set">Tambah ke Keranjang</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="newsletter">
+        <h3>Berlangganan Newsletter</h3>
+        <p>Dapatkan informasi terbaru tentang koleksi eksklusif dan penawaran spesial!</p>
+        <div style="margin-top: 20px;">
+            <input type="email" placeholder="Masukkan email Anda">
+            <button class="btn">Langganan</button>
+        </div>
+    </div>
+
+    <div class="floating-cart">
+        <i class="fas fa-shopping-cart cart-icon"></i>
+    </div>
+
+    <div class="cart-panel" id="cartPanel">
+        <div class="cart-header">
+            <h3>Keranjang Belanja</h3>
+            <button class="close-cart" id="closeCart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Item keranjang akan ditampilkan di sini -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">Total: <span id="cartTotal">Rp 0</span></div>
+            <button class="btn checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MRN Fashion House</h3>
+                <p>Jl. Fashion Cute No. 123</p>
+                <p>Jakarta, Indonesia</p>
+                <p>Email: hello@mrnfashion.com</p>
+                <p>Telp: (021) 1234-5678</p>
+            </div>
+            <div class="footer-section">
+                <h3>Link Cepat</h3>
+                <p><a href="#" style="color: white;">Tentang Kami</a></p>
+                <p><a href="#" style="color: white;">Cara Pembelian</a></p>
+                <p><a href="#" style="color: white;">Pengiriman</a></p>
+                <p><a href="#" style="color: white;">Kebijakan Privasi</a></p>
+            </div>
+            <div class="footer-section">
+                <h3 id="Tentang kami">Ikuti Kami</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section id="searchResults" class="search-results" style="display: none;">
+        <h2>Hasil Pencarian</h2>
+        <div class="product-grid" id="searchResultsGrid">
+            <!-- Hasil pencarian akan ditampilkan di sini -->
+        </div>
+    </section>
+
+    <script>
+    document.getElementById('searchForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const products = document.querySelectorAll('.product-card');
+        const searchResults = document.getElementById('searchResults');
+        const searchResultsGrid = document.getElementById('searchResultsGrid');
+        
+        searchResultsGrid.innerHTML = '';
+        let found = false;
+        
+        products.forEach(product => {
+            const productName = product.querySelector('h3').textContent.toLowerCase();
+            const productDesc = product.querySelector('p').textContent.toLowerCase();
+            
+            if (productName.includes(searchTerm) || productDesc.includes(searchTerm)) {
+                searchResultsGrid.appendChild(product.cloneNode(true));
+                found = true;
+            }
+        });
+        
+        if (found) {
+            searchResults.style.display = 'block';
+            searchResults.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            searchResultsGrid.innerHTML = '<p class="no-results">Tidak ada produk yang ditemukan</p>';
+            searchResults.style.display = 'block';
+        }
+    });
+
+    // Inisialisasi keranjang
+    let cart = [];
+    const cartPanel = document.getElementById('cartPanel');
+    const cartItems = document.getElementById('cartItems');
+    const cartTotal = document.getElementById('cartTotal');
+    const floatingCart = document.querySelector('.floating-cart');
+    const closeCart = document.getElementById('closeCart');
+
+    // Event listener untuk floating cart
+    floatingCart.addEventListener('click', () => {
+        cartPanel.classList.toggle('active');
+    });
+
+    // Event listener untuk tombol close
+    closeCart.addEventListener('click', () => {
+        cartPanel.classList.remove('active');
+    });
+
+    // Fungsi untuk menambah item ke keranjang
+    document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('add-to-cart')) {
+            const product = {
+                name: e.target.dataset.name,
+                price: parseInt(e.target.dataset.price),
+                quantity: 1
+            };
+            
+            addToCart(product);
+            updateCartDisplay();
+            cartPanel.classList.add('active');
+        }
+    });
+
+    function addToCart(product) {
+        const existingItem = cart.find(item => item.name === product.name);
+        
+        if (existingItem) {
+            existingItem.quantity++;
+        } else {
+            cart.push(product);
+        }
+    }
+
+    function updateCartDisplay() {
+        cartItems.innerHTML = '';
+        let total = 0;
+        
+        cart.forEach(item => {
+            total += item.price * item.quantity;
+            cartItems.innerHTML += `
+                <div class="cart-item">
+                    <div class="item-details">
+                        <h4>${item.name}</h4>
+                        <p>Rp ${item.price.toLocaleString('id-ID')}</p>
+                    </div>
+                    <div class="item-quantity">
+                        <button class="quantity-btn minus" data-name="${item.name}">-</button>
+                        <span>${item.quantity}</span>
+                        <button class="quantity-btn plus" data-name="${item.name}">+</button>
+                        <button class="remove-item" data-name="${item.name}">&times;</button>
+                    </div>
+                </div>
+            `;
+        });
+        
+        cartTotal.textContent = `Rp ${total.toLocaleString('id-ID')}`;
+    }
+
+    // Event listener untuk mengubah quantity
+    cartItems.addEventListener('click', (e) => {
+        if (e.target.classList.contains('quantity-btn')) {
+            const name = e.target.dataset.name;
+            const item = cart.find(item => item.name === name);
+            
+            if (e.target.classList.contains('plus')) {
+                item.quantity++;
+            } else if (e.target.classList.contains('minus')) {
+                item.quantity = Math.max(0, item.quantity - 1);
+                if (item.quantity === 0) {
+                    cart = cart.filter(cartItem => cartItem.name !== name);
+                }
+            }
+            
+            updateCartDisplay();
+        }
+        
+        if (e.target.classList.contains('remove-item')) {
+            const name = e.target.dataset.name;
+            cart = cart.filter(item => item.name !== name);
+            updateCartDisplay();
+        }
+    });
+    </script>
+</body>
+</html>
